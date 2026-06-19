@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Juliano & Gisele Fotografia</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <nav id="navbar" aria-label="Navegação principal">
+      <div class="container nav-inner">
+        <a href="#inicio" class="logo" aria-label="Página inicial">
+          Juliano <span>&</span> Gisele<br>
+          <span style="font-size:.7em;font-weight:400;opacity:.85">Fotografia</span>
+        </a>
+
+        <ul class="nav-links" id="navLinks" role="list">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <section id="inicio" aria-label="Banner principal">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-content">
+      <span class="hero-tag"><i class="fa-solid fa-camera" style="margin-right:.5rem"></i>Fotografia Profissional</span>
+      <h1 class="hero-titulo">Momentos que <em>duram</em><br>para sempre</h1>
+      <p class="hero-subtitulo">Ensaios fotográficos com olhar artístico, luz natural e muita dedicação. Cada foto conta uma história única — a sua história.</p>
+      <div class="hero-btns">
+        <a href="#servicos" class="btn btn-primary">Ver Serviços</a>
+        <a href="#contato" class="btn btn-outline">Agendar Ensaio</a>
+      </div>
+    </div>
+    <a href="#sobre" class="hero-scroll" aria-label="Rolar para baixo">
+      <i class="fa-solid fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <section id="sobre" aria-labelledby="sobre-titulo">
+    <div class="container">
+      <div class="sobre-grid">
+        <div class="sobre-foto-wrapper">
+          <img class="sobre-foto" src="assets/sobre-juliano-gisele.png" alt="Juliano e Gisele, fotógrafos profissionais" />
+          <div class="sobre-stats">
+            <strong>+13</strong>
+            <span>anos de<br>experiência</span>
+          </div>
+        </div>
+
+        <div class="sobre-texto">
+          <h2 class="secao-titulo" id="sobre-titulo">Nossa história</h2>
+          <span class="linha-dourada"></span>
+          <p class="secao-subtitulo" style="text-align:left;margin-top:.5rem">Amor pela fotografia que se tornou profissão</p>
+          <p>Juliano e Gisele se conheceram durante um workshop de fotografia em 2025 e desde então transformaram a paixão pelas imagens em um projeto de vida. Juntos, eles unem técnica apurada e sensibilidade artística para criar ensaios que emocionam e encantam.</p>
+          <p>Com mais de 13 anos de experiência, já realizaram centenas de ensaios — de retratos íntimos a produções fashion elaboradas. Cada projeto é tratado com atenção personalizada, garantindo que a essência de cada cliente apareça em cada clique.</p>
+          <p>Nossa missão é simples: transformar momentos ordinários in imagens extraordinárias que você vai querer guardar para sempre.</p>
+
+          <div class="sobre-itens">
+            <div class="sobre-item"><i class="fa-solid fa-check-circle"></i> +500 ensaios realizados</div>
+            <div class="sobre-item"><i class="fa-solid fa-check-circle"></i> Equipamentos profissionais</div>
+            <div class="sobre-item"><i class="fa-solid fa-check-circle"></i> Edição personalizada</div>
+            <div class="sobre-item"><i class="fa-solid fa-check-circle"></i> Entrega rápida e segura</div>
+          </div>
+          <a href="#servicos" class="btn btn-primary" style="margin-top:2rem">Conheça nossos serviços</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos" aria-labelledby="servicos-titulo">
+    <div class="container">
+      <h2 class="secao-titulo" id="servicos-titulo">Nossos Serviços</h2>
+      <span class="linha-dourada"></span>
+      <p class="secao-subtitulo" style="margin-top:1rem">Escolha o ensaio perfeito para você</p>
+
+      <div class="cards-grid">
+        <article class="card" aria-label="Serviço: Ensaio Individual">
+          <div class="card-icone"><i class="fa-solid fa-user-large"></i></div>
+          <h3 class="card-titulo">Ensaio Individual</h3>
+          <p class="card-desc">Para quem quer se expressar com autenticidade e confiança</p>
+          <ul class="card-lista" aria-label="O que está incluído">
+            <li><i class="fa-solid fa-circle-check"></i> 2 horas de sessão fotográfica</li>
+            <li><i class="fa-solid fa-circle-check"></i> Look pessoal livre</li>
+            <li><i class="fa-solid fa-circle-check"></i> 30 fotos editadas</li>
+            <li><i class="fa-solid fa-circle-check"></i> Entrega em galeria digital</li>
+            <li><i class="fa-solid fa-circle-check"></i> Orientação de poses inclusa</li>
+          </ul>
+          <div class="card-preco">R$ 350 <small>/ sessão</small></div>
+          <a href="#contato" class="btn">Agendar agora</a>
+        </article>
+
+        <article class="card destaque" aria-label="Serviço: Ensaio Family — Mais Popular">
+          <span class="card-badge">Mais popular</span>
+          <div class="card-icone"><i class="fa-solid fa-people-group"></i></div>
+          <h3 class="card-titulo">Ensaio Família</h3>
+          <p class="card-desc">Registre os momentos mais especiais com quem você ama</p>
+          <ul class="card-lista" aria-label="O que está incluído">
+            <li><i class="fa-solid fa-circle-check"></i> 3 horas de sessão fotográfica</li>
+            <li><i class="fa-solid fa-circle-check"></i> Até 5 pessoas</li>
+            <li><i class="fa-solid fa-circle-check"></i> 50 fotos editadas</li>
+            <li><i class="fa-solid fa-circle-check"></i> Entrega em galeria digital</li>
+            <li><i class="fa-solid fa-circle-check"></i> Álbum digital em PDF</li>
+          </ul>
+          <div class="card-preco">R$ 550 <small>/ sessão</small></div>
+          <a href="#contato" class="btn">Agendar agora</a>
+        </article>
+
+        <article class="card" aria-label="Serviço: Ensaio Fashion">
+          <div class="card-icone"><i class="fa-solid fa-star"></i></div>
+          <h3 class="card-titulo">Ensaio Fashion</h3>
+          <p class="card-desc">Produção completa para um resultado editorial deslumbrante</p>
+          <ul class="card-lista" aria-label="O que está incluído">
+            <li><i class="fa-solid fa-circle-check"></i> 4 horas de sessão fotográfica</li>
+            <li><i class="fa-solid fa-circle-check"></i> Maquiador profissional incluso</li>
+            <li><i class="fa-solid fa-circle-check"></i> 80 fotos editadas</li>
+            <li><i class="fa-solid fa-circle-check"></i> Entrega em galeria digital</li>
+            <li><i class="fa-solid fa-circle-check"></i> Direção criativa de look</li>
+          </ul>
+          <div class="card-preco">R$ 980 <small>/ sessão</small></div>
+          <a href="#contato" class="btn">Agendar agora</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria" aria-labelledby="galeria-titulo">
+    <div class="container">
+      <h2 class="secao-titulo" id="galeria-titulo">Galeria</h2>
+      <span class="linha-dourada"></span>
+      <p class="secao-subtitulo" style="margin-top:1rem">Um recorte do nosso trabalho</p>
+
+      <div class="galeria-grid" role="list" aria-label="Fotos do portfólio">
+        <div class="galeria-item grande" role="listitem">
+          <img src="assets/galeria-fashion.jpg" alt="Ensaio Fashion" loading="lazy" />
+        </div>
+        <div class="galeria-item" role="listitem">
+          <img src="assets/galeria-individual.jpg" alt="Ensaio Individual" loading="lazy" />
+        </div>
+        <div class="galeria-item" role="listitem">
+          <img src="assets/galeria-familia.jpg" alt="Ensaio Família" loading="lazy" />
+        </div>
+        <div class="galeria-item" role="listitem">
+          <img src="assets/galeria-retrato.jpg" alt="Retrato Natural" loading="lazy" />
+        </div>
+        <div class="galeria-item" role="listitem">
+          <img src="assets/galeria-casal.jpg" alt="Ensaio Casal" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" aria-labelledby="contato-titulo">
+    <div class="container">
+      <h2 class="secao-titulo" id="contato-titulo">Fale Conosco</h2>
+      <span class="linha-dourada"></span>
+      <p class="secao-subtitulo" style="margin-top:1rem">Agende seu ensaio ou tire suas dúvidas</p>
+
+      <div class="contato-grid">
+        <div class="contato-info">
+          <div class="contato-item">
+            <div class="contato-icone"><i class="fa-brands fa-whatsapp"></i></div>
+            <div><h4>WhatsApp</h4><p>(86) 99453-2553</p></div>
+          </div>
+          <div class="contato-item">
+            <div class="contato-icone"><i class="fa-brands fa-instagram"></i></div>
+            <div><h4>Instagram</h4><p>@julianoegiselefotografia</p></div>
+          </div>
+          <div class="contato-item">
+            <div class="contato-icone"><i class="fa-solid fa-envelope"></i></div>
+            <div><h4>E-mail</h4><p>contato@julianogisele.com.br</p></div>
+          </div>
+          <div class="contato-item">
+            <div class="contato-icone"><i class="fa-solid fa-location-dot"></i></div>
+            <div><h4>Localização</h4><p>Teresina – PI, Brasil</p></div>
+          </div>
+        </div>
+
+        <div class="formulario">
+          <form id="formContato" novalidate>
+            <div class="form-grupo">
+              <label for="nome">Nome completo</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+            </div>
+            <div class="form-grupo">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+            </div>
+            <div class="form-grupo">
+              <label for="servico">Serviço de interesse</label>
+              <div class="select-wrapper">
+                <select id="servico" name="servico" required>
+                  <option value="" disabled selected>Selecione um serviço</option>
+                  <option value="individual">Ensaio Individual — R$ 350</option>
+                  <option value="familia">Ensaio Família — R$ 550</option>
+                  <option value="fashion">Ensaio Fashion — R$ 980</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-grupo">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" placeholder="Conte um pouco sobre o que você tem em mente para o seu ensaio..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-enviar">
+              <i class="fa-solid fa-paper-plane" style="margin-right:.5rem"></i>Enviar mensagem
+            </button>
+            <div id="msg-sucesso" role="alert" aria-live="polite">
+              <i class="fa-solid fa-circle-check"></i>Mensagem enviada com sucesso! Em breve entraremos em contato.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="chatbot-flutuante">
+    <div class="chatbot-janela" id="chatbotJanela">
+      <div class="chatbot-header">
+        <div class="chatbot-titulo-box">
+          <h3>Assistente J&G</h3>
+          <span>Online • Responde instantaneamente</span>
+        </div>
+        <button type="button" class="chatbot-fechar">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="chatbot-mensagens" id="chatbotMensagens">
+        <div class="chat-msg bot">
+          Olá! Sou o assistente de Inteligência Artificial da <strong>Juliano & Gisele Fotografia</strong>. Como posso te ajudar hoje? Posso tirar dúvidas sobre nossos pacotes, preços ou agendamentos!
+        </div>
+      </div>
+      <div class="chatbot-input-box">
+        <input type="text" id="chatbotInput" placeholder="Digite sua dúvida aqui...">
+        <button type="button" class="chatbot-enviar">
+          <i class="fa-solid fa-paper-plane"></i>
+        </button>
+      </div>
+    </div>
+    
+    <button type="button" class="chatbot-btn" aria-label="Abrir chat de suporte">
+      <i class="fa-solid fa-comments"></i>
+    </button>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-logo">Juliano <span>&</span> Gisele</div>
+          <p class="footer-slogan">Fotografia profissional que captura a essência de quem você é. Momentos únicos transformados em memórias eternas.</p>
+          <div class="footer-redes" aria-label="Redes sociais">
+            <a href="#" class="footer-rede" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="footer-rede" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#" class="footer-rede" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul class="footer-links" aria-label="Links da navegação">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre nós</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <div class="footer-contato-item"><i class="fa-brands fa-whatsapp"></i><span>(85) 99999-0000</span></div>
+          <div class="footer-contato-item"><i class="fa-solid fa-envelope"></i><span>contato@julianogisele.com.br</span></div>
+          <div class="footer-contato-item"><i class="fa-solid fa-location-dot"></i><span>Teresina – PI, Brasil</span></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="anoAtual"></span> Juliano &amp; Gisele Fotografia. Todos os direitos reservados.</p>
+        <p>Feito com <i class="fa-solid fa-heart" style="color:var(--cor-accent)"></i> por <a href="#">Juliano &amp; Gisele</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="js/chatbot.js?v=999"></script>
+</body>
+</html>
